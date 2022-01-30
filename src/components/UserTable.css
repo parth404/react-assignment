@@ -1,0 +1,51 @@
+.table-container {
+  overflow-x: auto;
+  align-items: center;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+.mytable {
+  border-collapse: separate;
+  border-spacing: 0;
+  color: #4a4a4d;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow-x: auto;
+}
+.mytable th,
+td {
+  padding: 10px 15px;
+  vertical-align: middle;
+}
+.mytable thead {
+  background: #395870;
+  background: linear-gradient(#49708f, #293f50);
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.mytable th:first-child {
+  text-align: left;
+}
+
+.mytable tbody tr:nth-child(even) {
+  background: #f0f0f2;
+}
+.mytable td {
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+  font-size: 14px;
+}
+.mytable td:first-child {
+  border-left: 1px solid #cecfd5;
+}
+
+.edit-button {
+  background: #395870;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px 8px 5px 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
